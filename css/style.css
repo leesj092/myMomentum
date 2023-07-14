@@ -1,7 +1,8 @@
 html, body {
   margin: 0;
-  /* overflow: hidden; */
-  /* user-select: none; */
+  padding: 0;
+  overflow: hidden;
+  user-select: none;
 }
 
 .hidden {
@@ -9,32 +10,24 @@ html, body {
 }
 
 img {
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
-}
-
-.container {
-  position: relative;
-  text-align: center;
-  color: white;
-}
-
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  z-index: -1;
 }
 
 .clock {
-  position: absolute;
-  top: 0%;
+  color: white;
+  text-align: center;
+  margin: 0;
 }
 
 h2 {
   font-family: monospace;
-  font-size: 1050%;
+  font-size: 900%;
 }
 
 h1 {
@@ -42,13 +35,58 @@ h1 {
   font-size: 3rem;
 }
 
+#login-form {
+  text-align: center;
+  position: fixed;
+  left: 50%;
+  bottom: 30%;
+  transform: translateX(-50%);
+}
+
+#todo-form {
+  text-align: center;
+  position: fixed;
+  left: 50%;
+  bottom: 20%;
+  transform: translateX(-50%);
+}
+
 input[type=text] {
   color: white;
   background-color: transparent;
   border: none;
   border-bottom: 1px solid white;
+  text-align: center;
+  outline: none;
 }
 
-input[type=submit] {
-  color: blue;
+input:focus::placeholder {
+  color: transparent;
+}
+
+input#login {
+  width: 370px;
+  font-size: 40px;
+}
+
+input#todo {
+  width: 175px;
+  font-size: 25px;
+}
+
+::placeholder {
+  color: white;
+}
+
+#greeting {
+  color: white;
+}
+
+#quote {
+  position: fixed;
+  color: white;
+  text-align: center;
+  left: 50%;
+  bottom: 5%;
+  transform: translateX(-50%);
 }
