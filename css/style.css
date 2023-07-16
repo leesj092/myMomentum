@@ -65,13 +65,15 @@ input:focus::placeholder {
 }
 
 input#login {
-  width: 356px;
+  width: 432px;
   font-size: 40px;
+  font-family: monospace;
 }
 
 input#todo {
-  width: 157px;
+  width: 195px;
   font-size: 25px;
+  font-family: monospace;
 }
 
 ::placeholder {
@@ -99,7 +101,7 @@ input#todo {
 }
 
 ul {
-  color:antiquewhite;
+  color:white;
   text-align: center;
   list-style-type: none;
   font-family: monospace;
@@ -124,6 +126,15 @@ button {
 
 #username {
   cursor: text;
+}
+
+#weather {
+  color:white;
+  font-family: monospace;
+  font-size: 20px;
+  position: absolute;
+  top: 5%;
+  right: 5%;
 }
 
 ::-webkit-scrollbar {
