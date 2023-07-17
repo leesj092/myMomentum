@@ -6,7 +6,7 @@ It provides a personalized start page with a clock, greetings, to-do list, weath
 
 - Clock: Displays the current time.
 - Greetings: Greets the user based on the time of day and their entered name.
-- To-Do List: Lets the user create and manage a simple to-do list.
+- To-Do List: Lets the user create and manage a simple scrollable to-do list.
 - Weather Information: Shows the current weather conditions based on the user's location.
 - Background Image: Displays a random background image on each visit.
 
