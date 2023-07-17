@@ -9,6 +9,7 @@ It provides a personalized start page with a clock, greetings, to-do list, weath
 - To-Do List: Lets the user create and manage a simple scrollable to-do list.
 - Weather Information: Shows the current weather conditions based on the user's location.
 - Background Image: Displays a random background image on each visit.
+- Remembers entered information via local storage.
 
 ## Usage
 
