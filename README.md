@@ -1,3 +1,5 @@
+https://leesj092.github.io/myMomentum/
+
 # myMomentum
 A personal implementation of the Chrome extension "Momentum" as a learning opportunity via Vanilla JS.
 It provides a personalized start page with a clock, greetings, to-do list, weather information, and an inspirational quote.
@@ -12,7 +14,8 @@ It provides a personalized start page with a clock, greetings, to-do list, weath
 - Remembers entered information via local storage.
 
 ## Usage
-
+1. Visit https://leesj092.github.io/myMomentum/
+OR
 1. Clone the repository or download the source code.
 2. Open the index.html file.
 
