@@ -31,8 +31,3 @@ OR
 - `js/formCss.js`: Repaints the input fields (specifically the bottom-border lengths) based on the entered text.
 - `js/weather.js`: Retrieves and displays the current weather information.
 - `img/`: Contains the background images used by the extension.
-- `README.md`: Provides information about the Momentum Chrome extension.
-
-## Contributing
-
-Contributions/suggestions to this Momentum implementation are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request.
